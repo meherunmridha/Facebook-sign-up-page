@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SFPRODISPLAY', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'SFPRODISPLAY';
+    src: url('fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'SFPRODISPLAY MEDIUM';
+    src: url('fonts/SFPRODISPLAYMEDIUM.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'SFPRODISPLAY BOLD';
+    src: url('fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+}
+body {
+    background-color: #f0f1f1;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'SFPRODISPLAY', sans-serif;
+}
+
+.facabook_logo {
+    text-align: center;
+    margin: 7px 0;
+}
+
+.create_a_new_account_page_header {
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 0;
+    
+}
+
+.header_Create_a_new_account {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    font-family: 'SFPRODISPLAY BOLD';
+}
+
+.quick {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'SFPRODISPLAY';
+}
+
+.create_a_new_account_page {
+    width: 450px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#Surname, #first_name{
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#Surname:focus, #first_name:focus{
+    border-color: #007bff;
+    outline: none;
+}
+#Surname::placeholder, #first_name::placeholder{
+    color: #999;
+}
+
+.text_Date {
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-family: 'SFPRODISPLAY';
+}
+
+#day, #month, #year {
+    padding: 8px;
+    margin: 2px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 134px;
+}
+#day:focus, #month:focus, #year:focus{
+    border-color: #007bff;
+    outline: none;
+}
+
+.genber {
+    margin-top: 8px;
+    font-size: 12px;
+    font-family: 'SFPRODISPLAY';
+}
+
+.Male_radio, .Female_radio, .Custom_radio {
+    font-family: 'SFPRODISPLAY';
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 2px 0 0 0;
+    padding: 8px;
+    position: relative;
+    border-radius: 5px;
+    width: 134px;
+}
+
+.Male_radio:hover, .Female_radio:hover, .Custom_radio:hover {
+    background-color: #f0f1f1;
+    border-color: #007bff;
+}
+
+#Male::after, #Female:checked, #Custom:checked {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#genber {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+#mobile_number, #new_password {
+    padding: 8px;
+    margin: 8px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#mobile_number:focus, #new_password:focus{
+    border-color: #007bff;
+    outline: none;
+}
+
+#mobile_number::placeholder, #new_password::placeholder{
+    color: #999;
+}
+
+.text {
+    margin: 1em 0;
+    font-size: 11px;
+    font-family: 'SFPRODISPLAY';
+    color: #777;
+    display: block;
+}
+
+.Already {
+    font-size: 12px;
+    font-family: 'SFPRODISPLAY';
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.but_sign_up {
+    background-color: #00a400;
+    padding: 32px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 32px;
+    text-shadow: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.sign_up_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
